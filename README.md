@@ -1,6 +1,6 @@
 # Safe Studio Entitlement Canary Demo
 
-This is a standalone toy demonstration for explaining the license-bypass class without touching Plasticity or any real Studio feature.
+This is a standalone toy demonstration for explaining the license-bypass class without touching Program or any real Studio feature.
 
 It models the dangerous pattern:
 
@@ -25,9 +25,9 @@ It proves the class of bug:
 
 `risk`: If a Studio command trusts mutable client-side state after license verification, a local mediator can cause a Studio-only command to execute without a signed Studio entitlement.
 
-It does not prove Plasticity is vulnerable and does not enable Plasticity Studio.
+It does not prove Program is vulnerable and does not enable Program Studio.
 
-## Safe Mapping To Plasticity
+## Safe Mapping To Program
 
 The equivalent real invariant for Plasticity should be:
 
